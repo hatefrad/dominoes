@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dominoes Game</title>
+    </head>
+    <body>
+        <ul>
+            {% for step in steps %}
+                <li>{{ step|raw }}</li>
+            {% endfor %}
+        </ul>
+    </body>
+</html>
